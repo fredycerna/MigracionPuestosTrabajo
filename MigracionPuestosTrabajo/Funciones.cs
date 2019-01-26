@@ -36,12 +36,23 @@ namespace MigracionPuestosTrabajo
             {
                 Workbook libro = excel.Workbooks.Open(this.filepath);
                 excel.Visible = false;
+                int fi = 42, ff = 66;
+                string puesto = string.Empty;
+                string funcion = string.Empty;
+
                 foreach (Worksheet hoja in libro.Sheets)
                 {
-                   
-                    Microsoft.Office.Interop.Excel.Range xlRange = hoja.UsedRange;                  
-                    dgvData.Rows.Add(hoja.Name, xlRange.Cells.Range[hoja.Cells[42,2] , hoja.Cells[66,2]].Value2.toString());
-                    //lbltotal.Text = dgvdata.RowCount.ToString();
+                    Microsoft.Office.Interop.Excel.Range xlRange = hoja.UsedRange;
+                    puesto = xlRange.Cells[2, 2].Value2.ToString();
+                    
+                    for (int f =fi; f<=ff; f++)
+                    {
+                        if (xlRange.Cells[f, 2].Value2 == null)
+                            break;
+                        funcion = puesto = xlRange.Cells[f, 2].Value2.ToString();                       
+                        dgvData.Rows.Add(hoja.Name, puesto, funcion);
+                    }
+                 
                 }
                 libro.Close();
                 excel.Quit();
