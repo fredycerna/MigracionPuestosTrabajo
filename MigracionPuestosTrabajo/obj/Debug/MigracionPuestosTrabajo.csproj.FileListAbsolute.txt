@@ -40,3 +40,19 @@ D:\ProyectoGestionAcademica\Migraciones\MigracionPuestosTrabajo\MigracionPuestos
 D:\ProyectoGestionAcademica\Migraciones\MigracionPuestosTrabajo\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.csproj.CopyComplete
 D:\ProyectoGestionAcademica\Migraciones\MigracionPuestosTrabajo\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.exe
 D:\ProyectoGestionAcademica\Migraciones\MigracionPuestosTrabajo\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.pdb
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\bin\Debug\MigracionPuestosTrabajo.exe.config
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\bin\Debug\MigracionPuestosTrabajo.exe
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\bin\Debug\MigracionPuestosTrabajo.pdb
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\bin\Debug\EntityFramework.dll
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\bin\Debug\EntityFramework.SqlServer.dll
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\bin\Debug\EntityFramework.xml
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\bin\Debug\EntityFramework.SqlServer.xml
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.csprojAssemblyReference.cache
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.Form1.resources
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.Funciones.resources
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.Properties.Resources.resources
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.csproj.GenerateResource.cache
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.csproj.CoreCompileInputs.cache
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.csproj.CopyComplete
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.exe
+F:\Migracion de perfiles\MigracionPuestosTrabajo-master\MigracionPuestosTrabajo\obj\Debug\MigracionPuestosTrabajo.pdb

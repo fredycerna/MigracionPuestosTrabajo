@@ -35,7 +35,13 @@
             this.dgvdata = new System.Windows.Forms.DataGridView();
             this.btnprocesar = new System.Windows.Forms.Button();
             this.lbltotal = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnFunciones = new System.Windows.Forms.Button();
+            this.btnFormacion = new System.Windows.Forms.Button();
+            this.btnExperiencia = new System.Windows.Forms.Button();
+            this.btnComplementos = new System.Windows.Forms.Button();
+            this.btnConocimientos = new System.Windows.Forms.Button();
+            this.btnHabilidades = new System.Windows.Forms.Button();
+            this.btnCondiciones = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdata)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,9 +72,9 @@
             // 
             this.button1.Location = new System.Drawing.Point(26, 98);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 23);
+            this.button1.Size = new System.Drawing.Size(60, 23);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Leer Puestos";
+            this.button1.Text = " Puestos";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -99,22 +105,88 @@
             this.lbltotal.TabIndex = 5;
             this.lbltotal.Text = "Total ";
             // 
-            // button2
+            // btnFunciones
             // 
-            this.button2.Location = new System.Drawing.Point(697, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Funciones";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnFunciones.Location = new System.Drawing.Point(92, 98);
+            this.btnFunciones.Name = "btnFunciones";
+            this.btnFunciones.Size = new System.Drawing.Size(68, 23);
+            this.btnFunciones.TabIndex = 7;
+            this.btnFunciones.Text = "Funciones";
+            this.btnFunciones.UseVisualStyleBackColor = true;
+            this.btnFunciones.Click += new System.EventHandler(this.btnFunciones_Click);
+            // 
+            // btnFormacion
+            // 
+            this.btnFormacion.Location = new System.Drawing.Point(166, 98);
+            this.btnFormacion.Name = "btnFormacion";
+            this.btnFormacion.Size = new System.Drawing.Size(134, 23);
+            this.btnFormacion.TabIndex = 8;
+            this.btnFormacion.Text = "Formación academica";
+            this.btnFormacion.UseVisualStyleBackColor = true;
+            this.btnFormacion.Click += new System.EventHandler(this.btnFormacion_Click);
+            // 
+            // btnExperiencia
+            // 
+            this.btnExperiencia.Location = new System.Drawing.Point(307, 97);
+            this.btnExperiencia.Name = "btnExperiencia";
+            this.btnExperiencia.Size = new System.Drawing.Size(115, 23);
+            this.btnExperiencia.TabIndex = 9;
+            this.btnExperiencia.Text = "Experiencia laboral";
+            this.btnExperiencia.UseVisualStyleBackColor = true;
+            this.btnExperiencia.Click += new System.EventHandler(this.btnExperiencia_Click);
+            // 
+            // btnComplementos
+            // 
+            this.btnComplementos.Location = new System.Drawing.Point(429, 98);
+            this.btnComplementos.Name = "btnComplementos";
+            this.btnComplementos.Size = new System.Drawing.Size(84, 23);
+            this.btnComplementos.TabIndex = 10;
+            this.btnComplementos.Text = "Complementos";
+            this.btnComplementos.UseVisualStyleBackColor = true;
+            this.btnComplementos.Click += new System.EventHandler(this.btnComplementos_Click);
+            // 
+            // btnConocimientos
+            // 
+            this.btnConocimientos.Location = new System.Drawing.Point(520, 98);
+            this.btnConocimientos.Name = "btnConocimientos";
+            this.btnConocimientos.Size = new System.Drawing.Size(83, 23);
+            this.btnConocimientos.TabIndex = 11;
+            this.btnConocimientos.Text = "Conocimientos";
+            this.btnConocimientos.UseVisualStyleBackColor = true;
+            this.btnConocimientos.Click += new System.EventHandler(this.btnConocimientos_Click);
+            // 
+            // btnHabilidades
+            // 
+            this.btnHabilidades.Location = new System.Drawing.Point(610, 97);
+            this.btnHabilidades.Name = "btnHabilidades";
+            this.btnHabilidades.Size = new System.Drawing.Size(75, 23);
+            this.btnHabilidades.TabIndex = 12;
+            this.btnHabilidades.Text = "Habilidades";
+            this.btnHabilidades.UseVisualStyleBackColor = true;
+            this.btnHabilidades.Click += new System.EventHandler(this.btnHabilidades_Click);
+            // 
+            // btnCondiciones
+            // 
+            this.btnCondiciones.Location = new System.Drawing.Point(692, 98);
+            this.btnCondiciones.Name = "btnCondiciones";
+            this.btnCondiciones.Size = new System.Drawing.Size(75, 23);
+            this.btnCondiciones.TabIndex = 13;
+            this.btnCondiciones.Text = "Condiciones";
+            this.btnCondiciones.UseVisualStyleBackColor = true;
+            this.btnCondiciones.Click += new System.EventHandler(this.btnCondiciones_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnCondiciones);
+            this.Controls.Add(this.btnHabilidades);
+            this.Controls.Add(this.btnConocimientos);
+            this.Controls.Add(this.btnComplementos);
+            this.Controls.Add(this.btnExperiencia);
+            this.Controls.Add(this.btnFormacion);
+            this.Controls.Add(this.btnFunciones);
             this.Controls.Add(this.lbltotal);
             this.Controls.Add(this.btnprocesar);
             this.Controls.Add(this.dgvdata);
@@ -139,7 +211,13 @@
         private System.Windows.Forms.DataGridView dgvdata;
         private System.Windows.Forms.Button btnprocesar;
         private System.Windows.Forms.Label lbltotal;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnFunciones;
+        private System.Windows.Forms.Button btnFormacion;
+        private System.Windows.Forms.Button btnExperiencia;
+        private System.Windows.Forms.Button btnComplementos;
+        private System.Windows.Forms.Button btnConocimientos;
+        private System.Windows.Forms.Button btnHabilidades;
+        private System.Windows.Forms.Button btnCondiciones;
     }
 }
 
